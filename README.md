@@ -1,2 +1,19 @@
 # circle-points
-messing about with golden ratios
+
+Messing about with golden ratios
+
+## Running locally
+
+``` bash
+lein run
+```
+
+## Build jar
+
+``` bash
+# Build
+lein uberjar
+
+# Run
+java -jar target/uberjar/circle-points-0.1.0-standalone.jar
+```
